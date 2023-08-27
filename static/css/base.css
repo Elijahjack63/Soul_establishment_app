@@ -1,0 +1,60 @@
+/* Reset some default styling */
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Page-specific styles */
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav li {
+    margin: 0 20px;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #3498db;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Add more specific styling as needed */
+

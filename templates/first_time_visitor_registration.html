@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="registration-container">
+    <h2>Register First-Time Visitor</h2>
+    <form class="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        
+        <label for="interests">Interests:</label>
+        <textarea id="interests" name="interests" placeholder="Enter your interests or reasons for visiting"></textarea>
+        
+        <label for="follow-up">Preferred Follow-Up Method:</label>
+        <select id="follow-up" name="follow-up">
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+            <option value="in-person">In-person</option>
+        </select>
+        
+        <label for="assigned-member">Assign to Member:</label>
+        <select id="assigned-member" name="assigned-member">
+            <option value="member1">John Doe</option>
+            <option value="member2">Jane Smith</option>
+            <!-- Add more member options as needed -->
+        </select>
+        
+        <button class="btn" type="submit">Register</button>
+    </form>
+</div>
+{% endblock %}
+
+
